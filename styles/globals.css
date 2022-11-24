@@ -19,8 +19,9 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
-    color: white;
-    background: black;
+    background-color: #222222;
+    color: #fff;
   }
 }

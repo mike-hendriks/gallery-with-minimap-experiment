@@ -1,0 +1,25 @@
+.container {
+  padding: 0 2rem;
+}
+
+.title {
+  position: fixed;
+  top: 2rem;
+  z-index: 0;
+}
+
+.images {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: max(40vw, 400px);
+  padding-top: 9rem;
+  z-index: 1;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}

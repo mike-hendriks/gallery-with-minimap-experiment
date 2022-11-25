@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  // padding: 0 2rem;
 }
 
 .title {
@@ -13,8 +13,9 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: max(40vw, 400px);
-  padding-top: 9rem;
+  // width: max(50vw, 400px);
+  width: 50vw;
+  // padding-top: 9rem;
   z-index: 1;
 
   img {

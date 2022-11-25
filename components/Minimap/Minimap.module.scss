@@ -1,0 +1,23 @@
+.wrapper {
+  width: 70px;
+  height: auto;
+  position: fixed;
+  top: 35vh;
+  left: 60%;
+  z-index: 100;
+
+  .indicator {
+    width: 200%;
+    position: absolute;
+    top: 0%;
+    left: -50%;
+    opacity: 0.5;
+    z-index: 1;
+    border: 1px solid #fff;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
